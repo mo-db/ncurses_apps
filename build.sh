@@ -3,11 +3,11 @@
 set -xe
 
 CFLAGS="-g"
-LIBS=""
+LIBS="lncurses"
 
-FILE="main"
+FILE="worm"
 PROJECT="decimal_knob"
 
-clang $CFLAGS -o ./$PROJECT/out/$FILE ./$PROJECT/$FILE.c
+clang $CFLAGS -o "./$PROJECT/out/$FILE" "./$PROJECT/$FILE.c" -$LIBS
 
 "./$PROJECT/out/$FILE"
