@@ -5,10 +5,9 @@ set -xe
 CFLAGS="-g"
 LIBS=""
 
-#FILE="2-2_ok_loop"
-FILE="7-1_low_up_name"
-#LIB="io"
+FILE="main"
+PROJECT="decimal_knob"
 
-clang $CFLAGS -o ./output/$FILE ./src/$FILE.c
+clang $CFLAGS -o ./$PROJECT/out/$FILE ./$PROJECT/$FILE.c
 
-"./output/$FILE"
+"./$PROJECT/out/$FILE"
