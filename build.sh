@@ -5,7 +5,7 @@ set -xe
 CFLAGS="-g"
 LIBS="lncurses"
 
-FILE="worm"
+FILE="main"
 PROJECT="decimal_knob"
 
 clang $CFLAGS -o "./$PROJECT/out/$FILE" "./$PROJECT/$FILE.c" -$LIBS

@@ -1993,3 +1993,19 @@ cf_cv_wint_t=yes
 
 
 configure: exit 0
+
+## ----------------------- ##
+## Running config.status.  ##
+## ----------------------- ##
+
+This file was extended by config.status 2.52.20210509, executed with
+  CONFIG_FILES    = 
+  CONFIG_HEADERS  = 
+  CONFIG_LINKS    = 
+  CONFIG_COMMANDS = 
+  > "./config.status "
+on Moritzs-MacBook-Pro.local
+
+config.status:23994: creating Makefile
+config.status:24147: creating ncurses_cfg.h
+config.status:24229: ncurses_cfg.h is unchanged
